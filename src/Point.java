@@ -4,8 +4,8 @@ public class Point {
     private int y;
     private double originDistance;
     private String formattedDistance;
-
-    public Point(String name, int x, int y) {
+ 
+    public Point(String name, int x, int y) { // лично я бы не перегружал контсруктор так как точка может хранить в себе координаты только x,y и я не уверен что так можно делать в конструкторе тут у Саши спросить нужно
         this.name = name;
         this.x = x;
         this.y = y;
